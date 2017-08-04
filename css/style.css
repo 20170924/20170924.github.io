@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #7a7e89;
+  color: #fff;//#7a7e89;
   background: #f7f7f7;
 }
 body.fh5co-overflow {
@@ -504,7 +504,7 @@ p {
 }
 
 #fh5co-about {
-  background: #444853;
+  background: #efcacf;//#444853;
 }
 #fh5co-about h2 {
   color: #fff;
