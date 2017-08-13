@@ -683,10 +683,15 @@ figure {
 #fh5co-started {
   position: relative;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center 22%;
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-started {
+    background-position:center 30%;
+  }
+}
 #fh5co-started .overlay {
   position: absolute;
   top: 0;
