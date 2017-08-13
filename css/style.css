@@ -617,15 +617,28 @@ figure {
 #fh5co-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
-  font-family: cursive;
+  font-family: cursive, "TTGolmokgilL","Open Sans", Arial, sans-serif;;
 }
 
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;
-  font-family: "TTGolmokgilL","Open Sans", Arial, sans-serif;
+  font-family: cursive,"TTGolmokgilL","Open Sans", Arial, sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-countdown .countdown {
+    font-size: 20px;
+
+  }
+  #fh5co-countdown .countdown span {
+    font-size: 18px;
+  }
+
+  #fh5co-countdown .countdown small {
+    font-size: 10px;
+  }
+}
 .couple-wrap {
   width: 100%;
   float: left;
