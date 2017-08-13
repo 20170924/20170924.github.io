@@ -537,7 +537,7 @@ figure {
 #fh5co-guest,
 #fh5co-gallery,
 .fh5co-content-section {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -550,7 +550,7 @@ figure {
   #fh5co-guest,
   #fh5co-gallery,
   .fh5co-content-section {
-    padding: 4em 0;
+    padding: 2em 0;
   }
 }
 
