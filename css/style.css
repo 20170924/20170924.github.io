@@ -554,6 +554,18 @@ figure {
   }
 }
 
+@media screen and (max-width: 320px) {
+  #iphone5-fonts {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #iphone5-fonts-dates {
+    font-size: 16px;
+  }
+}
+
 .fh5co-section-gray {
   background: #F6FAF7;
 }
